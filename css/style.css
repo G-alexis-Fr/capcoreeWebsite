@@ -1,0 +1,54 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ GENERAL ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utilise pour les listeboxs de recherche */
+.curseur {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Ajout d'une image en PAGE LOGIN */
+
+.bgLogin {
+    background: url(../images/bgLogin.jpg);
+}
+
+/* Voici le modal du MDP oublie sur la page LOGIN */
+#modal{
+    height: 300px;
+    width: 30%;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    text-align: center; 
+    position: absolute;
+    top: -400px;
+    left: 35%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#modal h2{
+    padding-top: 60px;
+}
+
+#close {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: bolder;
+    float: right;
+}
+
+/* Grossir la taille de la bordure de la photo de profil */
+.img-thumbnail {
+    border: solid 3px;
+}
+
+/* Pour les erreurs des differents inputs */
+.erreur {
+    font-weight: bold;
+    color: red;
+}
